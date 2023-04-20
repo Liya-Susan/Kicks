@@ -7,7 +7,7 @@
 .home{
   background-color:#E7E7E3;
   padding: 2% 3%;
-  overflow: hidden;
+  
 }
 
 .home_about{
@@ -148,9 +148,9 @@ h4{
 
 
 .footer{
-  position:relative;
+  position: relative;
   color: white;
-  height: 135vh;
+  height: fit-content;
   
 }
 
@@ -160,14 +160,15 @@ h4{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 64px 72px 190px;
+  padding: 64px 72px 550px;
   border-radius: 48px;
   margin-top: 40px;
-
+  
 }
 
 .footerone div{
    width: 400px;
+
 }
 
 .footerone div h1{
@@ -285,6 +286,9 @@ h4{
 }
 
 @media screen and (max-width: 480px) {
+  .home{
+    overflow-x: hidden;
+  }
  .home_about{
   display: flex;
   flex-direction: column;
@@ -321,7 +325,6 @@ h4{
 
 .footer{
   width: 370px;
-  height: 200vh;
 }
 .footerone{
   flex-direction: column;
