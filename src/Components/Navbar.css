@@ -43,7 +43,7 @@
     margin-right: 40px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 600px) {
     .box{
         border: none;
         cursor: pointer;
