@@ -1,0 +1,83 @@
+.btngroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    position: relative;
+}
+
+ .imgs{
+    width:280px;
+ }
+
+.carouselbtn1{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+
+}
+
+.carouselbtn2{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+
+    color: white;
+}
+
+.h3{
+   width:270px;
+   margin:10px 0px;
+}
+
+.carouselbtn{
+    width: 270px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+   
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 480px) {
+  .btngroup h2{
+    font-size: 20px;
+  }
+
+  .carouselbtn1{
+    position: absolute;
+    
+  }
+    .imgs{
+        width: 150px;
+        margin-right: 0px;
+    }
+    .h3{
+        width: 120px;
+        font-size: 14px;
+        
+    }
+    
+    .slider .slick-list {
+        margin: 0 0 0 5px !important;
+      }
+      
+     .slider .slick-slide > div {
+        padding: 0 7px !important;
+      }
+    
+    .carouselbtn{
+        width:120px;
+        font-size:12px;
+        margin-bottom: 30px;
+    }
+    .carouselbtn1{
+      margin-left: -50px;
+    }
+    .btngroup h2{
+      font-size: 25px;
+    }
+  }
